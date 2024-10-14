@@ -9,7 +9,7 @@
 
 
 class Product:
-    def __init__(self, name: str, description: str, price: int, weight: int):
+    def __init__(self, name: str, description: str, price: int, weight: int) -> None:
         self.name = name
         self.description = description
         self.price = price
