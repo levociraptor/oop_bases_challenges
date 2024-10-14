@@ -14,5 +14,7 @@ class User:
 
 
 if __name__ == '__main__':
-    pass  # код писать тут
+    lev = User('lev', 'pythonic_animal', 20, '8 777 999 888')
+    print('Информация о пользователе:')
+    print(lev.name, lev.username, lev.age, sep='\n')
 
